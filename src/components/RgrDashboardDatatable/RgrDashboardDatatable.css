@@ -1,0 +1,28 @@
+.rgrFilt{
+    display: flex ;
+    flex-direction:  row !important;
+    box-shadow: none !important;
+    right: 20px !important;
+    margin-top: -8px;
+}
+
+.rgrFiltBox{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 4px 10px;
+   box-shadow: inset 0px -2px 3px 0 rgb(186 208 217), 0 0px 3px 0 rgb(186 208 217);
+}
+
+.rgrDtaCont button.MuiButton-root.MuiButton-Primary.MuiButton-sizeMedium.MuiButton-SizeMedium.MuiButtonBase-root.tss-1fbujeu-MUIDataTableHeadCell-toolButton.css-1w1rijm-MuiButtonBase-root-MuiButton-root {
+    padding: 3px 0px !important;
+    align-self: center;
+}
+
+.rgrDtaCont .tss-1akey0g-MUIDataTableHeadCell-data {
+    font-size: 12.5px !important;
+    text-transform: capitalize;
+    font-weight: 900;
+    font-family: "Tahoma-Bold";
+}

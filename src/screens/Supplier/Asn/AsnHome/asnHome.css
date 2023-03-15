@@ -1,0 +1,138 @@
+.asnHome{
+    width: 100%;
+    height: 100vh;
+    font-family: "CoHeadlineW23-ArabicRegularRegular";
+}
+
+.asnCont{
+    width: 100%;
+    height: 84.1vh;
+   background-color: #f8f9fa;
+}
+
+.asnRegionBx{
+    width: 100%;
+    margin-top: 2.3%;
+    background: white ;
+    padding: 7px ;
+}
+
+.asnRegionBxCont{
+    max-width: 720px;
+    border : var(--border);
+    margin: auto;
+    border-radius: 4px;
+}
+
+.asnRgHead{
+    width: 100%;
+    background: #1d2445;
+    padding: 15px 19px;
+}
+
+.asnRgHead select{
+    width: 100%;
+    outline: none;
+    padding: 7px 8px;
+    font-size: 14px !important;
+    border-radius: 2px;
+
+    font-family: 
+    "Tahoma-Regular";
+}
+
+.asnRegionBxCont h5{
+    font-size: 17px;
+    text-align: center;
+    margin: 25px ;
+   
+}
+
+.asnItms{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.asnItmsbox{
+    display: flex;
+    justify-content: center;
+    border: 1px solid green;
+    flex-direction: row;
+    width: 18.4%;
+    height: 80px;
+    border-radius: 20px;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+   margin-bottom: 25px;
+}
+
+.asnItmsbox h5{
+    font-size: 16px;
+}
+
+.asnItmsbo2{
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(212, 211, 211);
+    flex-direction: row;
+    width: 18.4%;
+    height: 80px;
+    border-radius: 20px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+
+
+.asnItmsbo2 h5{
+    font-size: 16px;
+    color: rgb(206, 206, 206);
+}
+
+.asnSbmt{
+    width: 100%;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px ;
+    overflow: hidden;
+    border-top: var(--border);
+}
+
+.asnSbmt button{
+    background-color: white;
+    width: 160px;
+    padding: 4px;
+    border: 1px solid rgb(78, 78, 78);
+    color: rgb(78, 78, 78);
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.asnSbmt button:hover{
+    background-color: red;
+    color: white;
+    border-color: red;
+}
+
+.asnRt{
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    border-radius: 50%;
+    border: 1px solid green;
+    background-color: white;
+    position: absolute;
+    top: -20px;
+    padding-top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}

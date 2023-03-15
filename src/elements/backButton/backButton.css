@@ -1,0 +1,14 @@
+.bcbtn button{
+    color: #fff;
+    background-color: #17a2b8;
+    border:1px solid  #17a2b8;
+    padding: 6px 14px;
+    margin: 10px 14px;
+    border-radius: 4px;
+    font-family: "CoHeadlineW23-ArabicRegularRegular";
+    transition: 0.3s;
+}
+
+.bcbtn button:hover{
+    background-color: #36bbb8;
+}

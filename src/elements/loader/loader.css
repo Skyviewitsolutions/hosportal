@@ -1,0 +1,100 @@
+.spinner {
+  /* Spinner size and color */
+  width: 1.4rem;
+  height: 1.4rem;
+  border-top-color: #444;
+  border-left-color: #444;
+
+  /* Additional spinner styles */
+  animation: spinner 400ms linear infinite;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0px;
+}
+
+/* Animation styles */
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Optional — create your own variations! */
+.spinner-large {
+  width: 1.7rem;
+  height: 1.7rem;
+  border-width: 3px;
+}
+
+.spinner-slow {
+  animation: spinner 1s linear infinite;
+}
+
+.spinner-blue {
+  border-top-color: white;
+  margin-top: -14px;
+  margin-bottom: -12px;
+  border-left-color: white;
+}
+
+
+
+/* second loader */
+
+.spinner2 {
+  /* Spinner size and color */
+  width: 1.4rem;
+  height: 1.4rem;
+  border-top-color: rgb(85, 71, 71);
+  border-left-color: rgb(65, 55, 55);
+
+  /* Additional spinner styles */
+  animation: spinner 400ms linear infinite;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0px;
+}
+
+/* Animation styles */
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Optional — create your own variations! */
+.spinner-large2 {
+  width: 1.7rem;
+  height: 1.7rem;
+  border-width: 3px;
+}
+
+.spinner-slow2 {
+  animation: spinner 1s linear infinite;
+}
+
+.spinner-blue2 {
+  border-top-color: rgb(22, 19, 175);
+  /* margin-top: -14px;
+  margin-bottom: -12px; */
+  border-left-color: rgb(22, 19, 175);
+  margin-left: 0px !important;
+}

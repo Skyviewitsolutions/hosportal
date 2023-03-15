@@ -1,0 +1,24 @@
+import React from 'react';
+import RgrSideBarComponent from '../../../../components/RgrSideBar/RgrSideBarComponent';
+import RgrHeaderContainer from "../../../../components/RgrHeader/RgrHeaderContainer";
+import RgrDashboardDatatable from "../../../../components/RgrDashboardDatatable/RgrDashboardDatatable";
+
+const RgrPoListItemComponent = (props) => {
+  return (
+    <div className="supInv">
+          <RgrSideBarComponent />
+        <div className="supInvRight ">
+           <RgrHeaderContainer />
+           <RgrDashboardDatatable title="Select Item" {...props} showNextBtn={true} showBackBtn={true}/>
+        </div>
+        <div className="faq">
+          <h6>FAQ</h6>
+        </div>
+        <div className="guide">
+          <h6>Supplier's Journey Guide</h6>
+        </div>
+      </div>
+  )
+}
+
+export default RgrPoListItemComponent

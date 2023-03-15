@@ -1,0 +1,53 @@
+.inputDte{
+    margin: 4px ;
+    width: 240px !important;
+    position: relative;
+    margin-bottom: 3px;
+}
+
+.calendarrr{
+    width: 200px ;
+    
+}
+
+.rdtPicker {
+    width: 248px !important;
+}
+
+.react-calendar.datcont {
+    width: 283px;
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    z-index: 10001 !important;
+}
+
+.inptDteCont{
+    max-width: 230px;
+    display: flex;
+   
+}
+.inptDteCont h4{
+    color: var(--lighGrey);
+    font-size:15px;
+}
+
+.inptDteCont div{
+    border: var(--border);
+   
+    border-radius: 2px ;
+}
+
+.inptDteCont div input{
+    border: none;
+    outline: none;
+    width: 85%;
+    padding: 3px 6px;
+    color: var(--lighGrey);
+    background: rgb(213, 216, 213);
+}
+
+.inptDteCont div img{
+    margin: auto;
+    width: 20px;
+}

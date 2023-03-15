@@ -1,0 +1,46 @@
+.logincontainer{
+    width: 99vw;
+    height: 99vh;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.videoContainer{
+    width: 100%;
+    height: 100%;
+    z-index: -1 !important;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.overLay{
+    position: absolute ;
+    width: 101%;
+    height: 101%;
+    overflow-y: hidden !important;
+    overflow-x: hidden !important;
+    z-index: 10 !important;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    background: linear-gradient(rgb(27 31 72 / 82%), #1b1f48f2);
+}
+.overLay2{
+    position: absolute ;
+    width: 101%;
+    height: 101%;
+    overflow-y: hidden !important;
+    overflow-x: hidden !important;
+    z-index: 10 !important;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

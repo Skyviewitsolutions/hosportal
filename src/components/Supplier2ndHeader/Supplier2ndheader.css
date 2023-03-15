@@ -1,0 +1,91 @@
+.supp2ndHead {
+  width: 100%;
+  padding-bottom: 9px;
+  border-bottom: 6px solid #d0d1d4;
+}
+
+.sup2ndHeadCont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 12px 2px 12px;
+}
+
+.sup2ndHeadCont > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sup2ndHeadCont h6 {
+  color: var(--lightWhite);
+  font-weight: 800;
+  font-size: 13px;
+  font-family: "CoHeadlineW23-ArabicRegularRegular";
+}
+
+.sup2ndHeadCont .sup2ndinner {
+  display: flex;
+  margin-left: 30px;
+  align-items: center;
+}
+
+.sup2ndHeadCont .sup2ndinner img {
+  width: 20px;
+  margin: 0px 9px;
+  margin-top: -6px;
+}
+
+.sup2ndHeadCon2 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 12px;
+}
+
+.sup2ndHeadCon2 div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 20px;
+  width: 150px;
+  margin-top: 20px;
+}
+
+.sup2ndHeadCon2 div h5 {
+  color: var(--lightWhite);
+  margin-bottom: 0px;
+  font-size: 15px;
+  margin-left: 6px;
+}
+
+.supp2ndHead .sup2ndHeadCont {
+  padding-right: 6%;
+}
+
+.supp2ndHead .sup2ndHeadCont h6 {
+  color: black;
+}
+
+.supp2ndHead .sup2ndHeadCon2 h5 {
+  color: rgb(143, 142, 142);
+  font-weight: bold;
+  font-size: 14px;
+  padding-right: 3%;
+}
+.supp2ndHead .sup2ndHeadCon2 h5:hover {
+  color: black;
+}
+
+.sup2ndHeadCont div:first-child{
+    margin-top: 8px;
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+}
+
+.sup2ndHeadCont div:first-child  h6{
+    margin-bottom: 0px;
+    margin-left: 16px;
+}

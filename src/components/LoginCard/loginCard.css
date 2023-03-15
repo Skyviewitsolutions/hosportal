@@ -1,0 +1,121 @@
+.cards{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    width: 470px;
+    height: 430px;
+    background: white;
+    z-index: 12 !important;
+    overflow: hidden;
+}
+
+.cards:hover{
+    box-shadow: 2px 2px 2px var(--light) , inset -2px -2px 2px var(--light);
+}
+
+.card_cont{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.card_cont2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 13 !important;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.circle1 , .circle2{
+    position: absolute;
+    z-index: 12 !important;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.circle1{
+    top: 0;
+    left: 0;
+    transform: translate(-35% , -58%);
+    background-color:#1b1f48;
+}
+.circle2{
+    top: 0;
+    right: 0;
+    transform: translate(35% , -58%);
+    background-color: #e65e36;
+}
+
+.login-title{
+    color: var(--danger);
+    text-align: center;
+    margin-top: 90px;
+    font-size: 26px;
+    text-shadow: 2px 2px rgb(235, 235, 235);
+    font-family: var(--font-family-sans-serif);
+    font-weight: 500;
+    margin-bottom: 23px;
+}
+
+.loginInput{
+    width: 74%;
+    align-self: center;
+    border-radius: 25px;
+    padding: 11px 18px; 
+    background: #ffffff;
+    border: 1px solid var(--lighGrey);
+    margin-bottom: 16px;
+    outline: none;
+}
+
+.loginInput:active , .loginInput:hover{
+   box-shadow: 1px 1px 3px var(--blue);
+}
+
+.remem{
+    width: 73%;
+    display: flex;
+    align-self: center;
+    align-items: center;
+}
+
+.remem label{
+    font-size: 14px;
+    color: var(--gray);
+    margin-left: 15px;
+}
+
+.loginBtn{
+    margin: 0px auto;
+    width: 74%;
+    background: #1b1f48;
+    align-self: center;
+    border-radius: 25px;
+    padding: 12px ;
+    color: white;
+   
+    border: 1px solid var(--lighGrey);
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 20px !important;
+}
+
+.loginBtn:active{
+    background: var(--blue);
+}
+
+.error{
+    margin-left: 14%;
+    color: #dc3545;
+    margin-top: -12px;
+}
+
+.supBtn{
+    padding: 7px !important;
+    align-items: center;
+}

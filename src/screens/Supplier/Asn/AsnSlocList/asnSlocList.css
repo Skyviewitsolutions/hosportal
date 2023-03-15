@@ -1,0 +1,22 @@
+.asnSlocBxCont{
+    max-width: 500px;
+    border : var(--border);
+    margin: auto;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.asnSlocBxCont h5{
+    font-size: 17px;
+    text-align: center;
+    margin: 25px ;
+}
+
+.asnSlocItms{
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+
+.asnSlocItmsbx{
+    width: 40% !important;
+}

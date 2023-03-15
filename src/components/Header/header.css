@@ -1,0 +1,56 @@
+.header {
+    width: 100%;
+    padding: 6px 12px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 4px solid rgb(32, 32, 32);
+    height: 65px;
+    align-items: center;
+}
+
+.logo{
+   width: 150px;
+}
+
+.logo img {
+    width: 50%;
+}
+
+.user{
+    padding: 8px 15px;
+    display: flex; 
+    align-items: center;
+    position: relative;
+}
+.user img {
+    width: 45px;
+    height: 45px;
+    margin-left: 15px;
+}
+
+.user h6{
+    font-size: 14px;
+    color: rgb(145, 145, 145);
+}
+
+.userLogout{
+    display: flex;
+    position: absolute;
+    bottom: -30px;
+    right: 0px;
+    z-index: 1000 !important;
+    background-color: white;
+    width: 160px !important;
+    box-shadow: var(--boxshadow);
+    justify-content: center;
+    align-items: center;
+    padding: 8px ;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.userLogout h6{
+    font-size: 15px;
+    margin-bottom: 0px;
+    margin-left: 8px;
+}

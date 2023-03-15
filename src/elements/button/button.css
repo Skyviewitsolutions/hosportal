@@ -1,0 +1,22 @@
+.special_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+.special_btn button {
+    background-color: var(--lightBlue);
+    color: white;
+    padding: 6px 15px;
+    font-size: 19px;
+    border: none;
+    outline: none;
+    margin-bottom: 18px;
+    min-width:  150px;
+    border-radius: 5px;
+}
+
+.special_btn .back{
+    background-color: #f6c23e !important;
+}

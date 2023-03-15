@@ -1,0 +1,18 @@
+.ansHead{
+    display: flex;
+    justify-content: space-between !important;
+}
+
+.ansHead div:first-child{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.ansHead div h6{
+    text-align:  center;
+    margin-left: 10%;
+    font-family: "Tahoma-Bold";
+    color: #1c2346;
+}

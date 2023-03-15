@@ -1,0 +1,35 @@
+.posltinput{
+    width: 100px;
+    padding: 2px 12px;
+    height: 27px;
+    margin: 0px ;
+    border-radius: 2px;
+}
+
+.posltselect{
+    width: 100px;
+    padding: 2px 12px;
+    height: 34px;
+    margin: 0px ;
+    border: 1px solid rgb(212, 212, 212) !important;
+    border-radius: 2px;
+}
+
+.posltbtn{
+    width: 80px;
+    background: rgb(223, 175, 17);
+    font-family: "Tahoma-Bold";
+    height: 35px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+.asnPoSelectedDtaTable .supDtaTable .tss-1akey0g-MUIDataTableHeadCell-data {
+    padding: 1px 5px !important;
+    margin-bottom: 0px !important;
+    font-family: "Tahoma-Bold";
+    font-size: 12px !important;
+    text-transform: capitalize;
+    background: #fcf0e6 !important;
+    font-size: 12px;
+}

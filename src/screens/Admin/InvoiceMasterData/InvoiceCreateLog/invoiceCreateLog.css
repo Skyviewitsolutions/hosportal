@@ -1,0 +1,16 @@
+.bordder{
+    border-bottom: 1.2px solid rgb(221, 223, 221);
+    padding-bottom: 9px;
+}
+
+.spcl{
+    width:  130px ;
+    text-align:  center ;
+    text-transform:  capitalize ;
+    margin:  0px !important ;
+    font-family:  'Montserrat', sans-serif ;
+    font-size:  12px ;
+    color:  #858796 ;
+    font-weight:  400 ;
+    margin-bottom:  -5px ;
+}

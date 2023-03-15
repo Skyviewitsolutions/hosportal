@@ -1,0 +1,274 @@
+.supDtaTable {
+  background: var(--background);
+  width: 100%;
+  height: 83.6vh;
+  position: relative;
+}
+
+.supDtaTable .tss-1cdcmys-MUIDataTable-responsiveBase {
+  width: 100%;
+  padding: 0px 14px;
+  overflow: scroll;
+}
+
+.supDtaTable .tss-1qtl85h-MUIDataTableBodyCell-root {
+  padding-bottom: 4px !important;
+  padding-top: 4px !important;
+  color: #868e96 !important;
+  font-size: 13px;
+  text-align: center;
+}
+
+
+span.tss-178gktx-MUIDataTableHeadCell-contentWrapper {
+    align-self: center !important;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: px;
+}
+
+th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-sizeMedium.tss-10syd3x-MUIDataTableHeadCell-root.tss-gm6zfk-MUIDataTableHeadCell-fixedHeader.css-1bigob2 {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.supDtaTable
+  .MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular.tss-tlx3x1-MUIDataTableToolbar-root.css-1t29gy6-MuiToolbar-root {
+  height: 83px !important;
+}
+
+button.MuiButton-root.MuiButton-Primary.MuiButton-sizeMedium.MuiButton-SizeMedium.MuiButtonBase-root.tss-1fbujeu-MUIDataTableHeadCell-toolButton.css-5bcq5j {
+  border-radius: 0px !important;
+    display: flex;
+    justify-content: center;
+    background: #fcf0e6;
+    padding: 7px 1px !important;
+    
+}
+button.MuiButton-root.MuiButton-Primary.MuiButton-sizeMedium.MuiButton-SizeMedium.MuiButtonBase-root.tss-1fbujeu-MUIDataTableHeadCell-toolButton.css-1w1rijm-MuiButtonBase-root-MuiButton-root {
+  padding: 7px 0px !important;
+  align-self: center;
+}
+.MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular.tss-tlx3x1-MUIDataTableToolbar-root.css-191lty2 {
+  height: 82px !important;
+  display: flex;
+  align-items: center;
+}
+
+.tss-1akey0g-MUIDataTableHeadCell-data h6.headerTxt {
+   
+    margin-bottom: 0px !important;
+    font-size: 12px;
+    text-align: center !important;
+    color: black !important;
+    font-weight: bold !important;
+    font-size: 12.6px;
+    /* margin-bottom: -5px !important; */
+    padding-top: 5px !important;
+    text-align: center;
+
+}
+
+.supDtaTable .css-1ygcj2i-MuiTableCell-root {
+  padding: 1px 5px !important;
+  margin-bottom: 0px !important;
+  background: #fcf0e6 !important;
+}
+.supDtaTable .css-1ygcj2i-MuiTableCell-root h6.headerTxt {
+  margin-bottom: 0px;
+}
+
+.supDtaTable .tss-1akey0g-MUIDataTableHeadCell-data {
+  padding: 1px 5px !important;
+  margin-bottom: 0px !important;
+  background: #fcf0e6 !important;
+}
+
+.customFooter {
+  width: 100%;
+  display: flex;
+  padding: 10px 14px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.csmFtright {
+  margin-right: 25px;
+  padding: 6px 0px;
+  
+  border-radius: 2px;
+}
+
+.csmFtright span {
+  font-size: 13px;
+  padding: 9px 12px;
+  color: #868e96 !important;
+  border-right: 1px solid #c1c2c4;
+  cursor: pointer;
+}
+
+.csmFtleft {
+  padding: 6px 0px;
+}
+
+.csmFtleft h6 {
+  font-size: 13px;
+  padding: 9px 12px;
+  color: #4d4d4d ;
+  font-weight: 600;
+  margin-bottom: 0px !important;
+  cursor: pointer;
+}
+
+.csmFtright span:last-child {
+  border-right: 0px solid transparent;
+  cursor: pointer;
+}
+
+.createInvceBtn {
+  margin-top: -8px;
+}
+
+.ftBtn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2px;
+}
+
+.ftBtn button {
+  padding: 7px 12px;
+  border-radius: 4px;
+  border: none;
+  background: #e06e0e !important;
+  color: white;
+  font-size: 15px;
+  font-family: "CoHeadlineW23-ArabicRegularRegular";
+}
+
+.supDtaTable .css-1ygcj2i-MuiTableCell-root h6.headerTxt {
+  text-align: center !important;
+  color: black !important;
+  font-weight: bold !important;
+  font-size: 12.6px;
+  margin-bottom: -5px !important;
+  padding-top: 5px !important;
+}
+
+.supDtaSelect {
+  position: absolute;
+  top: 20px;
+  right: 18%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.supDtaSelect h5 {
+  font-size: 16px;
+  width: 250px !important;
+  color: #373757;
+  font-family: "Tahoma-Bold";
+}
+
+.supDtaSelect select {
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.dtaSearch {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 20px;
+  right: 15%;
+}
+.dtaSearch div {
+  display: flex;
+  border: 2px solid rgb(80, 78, 78);
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 6px;
+}
+.dtaSearch h6 {
+  margin-bottom: 0px;
+  font-size: 14px;
+}
+
+.searchImg {
+  width: 18px;
+  height: 18px;
+  margin: 4px 8px;
+  cursor: pointer;
+}
+
+.dtaSearch input {
+  border: none;
+  outline: none;
+  font-size: 13px;
+  padding: 2px 5px;
+}
+
+.filterOpt {
+  position: absolute;
+  top: 18px;
+  right: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0px -2px 3px 0 rgb(198, 208, 212),
+    0 0px 3px 0 rgb(198, 210, 214);
+  padding: 3px 9px;
+  cursor: pointer;
+}
+
+.filterOpt:hover {
+  box-shadow: inset 0px -2px 3px 0 rgb(147, 204, 226),
+    0 0px 3px 0 rgb(146, 202, 224);
+}
+
+.filterOpt span {
+  font-size: 11px;
+  font-weight: bold;
+  color: var(--gray);
+  letter-spacing: 0.3px;
+}
+
+.filterOpt img {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 2px;
+}
+
+.dnPo {
+  position: absolute;
+  right: 3%;
+  top: 20px;
+}
+
+.dnPo button {
+  padding: 3px 9px;
+  font-size: 14px;
+  border-radius: 4px;
+  background: white;
+  font-family: "CoHeadlineW23-ArabicRegularRegular";
+  color: var(--lighGrey);
+}
+
+.tss-1akey0g-MUIDataTableHeadCell-data {
+  white-space: nowrap;
+}

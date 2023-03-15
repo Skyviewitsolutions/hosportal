@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap');
+
+:root {
+  --boxshadow: 0.5px 0.5px 3px rgb(214, 206, 206);
+  --boxshadow2 : 0 .15rem 1.75rem 0 rgba(58,59,69,.15) ;
+  --border: 0.2px solid rgb(102, 100, 100, 0.5);
+  --normalGrey: #3c3d40;
+  --lighGrey: #858796;
+  --lightBlue: #4e73df;
+  --firstGradient : radial-gradient(circle, rgb(226 82 23 / 80%), #e32e1b);;
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --background : rgb(233, 232, 232) ;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --headingColor : #373757 ;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --btnColor : #36b9cc ;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --inputBorder :  1px solid #d1d3e2;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --darkBlue : #212552 ;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --lightWhite : #dddddd ;
+  --dark: #343a40;
+  --lineBorder :  1px solid rgb(221, 220, 220) ;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+
+* {
+  margin: 0 ;
+  padding: 0 ;
+  box-sizing: border-box ;
+}
+
+body {
+  font-family: var(--font-family-monospace);
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: "CoHeadlineW23-ArabicRegularBold";
+  src: local("CoHeadlineW23-ArabicRegularBold"),
+   url("./fonts/CoHeadlineW23ArabicBold.ttf") format("truetype");
+  font-weight: bold;
+  }
+@font-face {
+  font-family: "CoHeadlineW23-ArabicRegularLight";
+  src: local("CoHeadlineW23-ArabicRegularLight"),
+   url("./fonts/CoHeadlineW23ArabicLight.ttf") format("truetype");
+  font-weight: bold;
+  }
+@font-face {
+  font-family: "CoHeadlineW23-ArabicRegularRegular";
+  src: local("CoHeadlineW23-ArabicRegularRegular"),
+   url("./fonts/CoHeadlineW23ArabicRegular.ttf") format("truetype");
+  font-weight: bold;
+  }
+@font-face {
+  font-family: "Tahoma-Regular";
+  src: local("Tahoma-Regular"),
+   url("./fonts/Tahoma_Regular_font.ttf") format("truetype");
+  font-weight: bold;
+  }
+@font-face {
+  font-family: "Tahoma-Bold";
+  src: local("Tahoma-Bold"),
+   url("./fonts/Tahoma.ttf") format("truetype");
+  font-weight: bold;
+  }

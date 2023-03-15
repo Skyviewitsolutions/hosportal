@@ -1,0 +1,26 @@
+.mstLog{
+    width: 100%;
+    display: flex;
+    padding: 7px 19px;
+    flex-direction: column;
+    border-bottom: 1.2px solid rgb(221, 223, 221);
+}
+
+.mstLog div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.invMstDate{
+    display: flex !important;
+    max-width: 540px !important;
+    width : 50% ;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    margin-top: 4px;
+}

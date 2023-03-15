@@ -1,0 +1,35 @@
+.rejReason{
+    width: 100%;
+    min-height: 100px;
+    background: white;
+    margin: auto;
+    border-radius: 5px;
+    padding: 25px 0px;
+}
+
+.rejReason h4{
+    font-size: 19px;
+    text-align: center;
+    font-family: "Tahoma-Regular";
+    color: rgb(63, 62, 62);
+}
+
+.cnBtnCont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.canBtn{
+ 
+  padding: 7px 12px;
+  border-radius: 4px;
+  border: none;
+  background: #e06e0e !important;
+  color: white;
+  font-size: 15px;
+  font-family: "CoHeadlineW23-ArabicRegularRegular";
+  
+  margin-top: 12px;
+  margin-bottom: -12px;
+}

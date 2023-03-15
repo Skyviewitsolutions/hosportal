@@ -1,0 +1,59 @@
+.suphome {
+  width: 100%;
+}
+
+.supHomeCont {
+  width: 100%;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.45),
+      rgba(255, 255, 255, 0.45)
+    ),
+    url("../../../assets/supplier/background.jpg");
+  height: 85vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 18px;
+  font-family: "CoHeadlineW23-ArabicRegularBold";
+}
+
+.supHomeCont p b{
+    color: #1c2346;
+}
+
+.suphome svg {
+  margin-top: -23px;
+}
+
+.suppCard{
+  
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  
+}
+
+.guide {
+  position: fixed;
+  bottom: 0px;
+  right: 110px;
+  box-shadow: 0 0 6px 2px #1c2346, 0 0 3px 1px #ffffff;
+  color: #E06E0E!important;
+  padding: 4px 15px;
+  border-radius: 7px 7px 0 0;
+  z-index: 999;
+  background: #fff;
+  font-family: "CoHeadlineW23-ArabicRegularRegular";
+}
+
+.faq {
+  position: fixed;
+  bottom: 0px;
+  right: 10px;
+  box-shadow: 0 0 6px 2px #1c2346, 0 0 3px 1px #ffffff;
+  color: #E06E0E;
+  padding: 4px 15px;
+  border-radius: 7px 7px 0 0;
+  z-index: 999;
+  background: #fff;
+  font-family: "CoHeadlineW23-ArabicRegularRegular";
+}

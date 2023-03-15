@@ -1,0 +1,9 @@
+.ReactModal__Overlay.ReactModal__Overlay--after-open {
+    width: 400px !important;
+    height: 180px !important;
+    margin: 50px 45%;
+    
+    box-shadow: var(--boxshadow);
+    border-radius: 8px;
+    background-color: white !important;
+}

@@ -1,0 +1,40 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  margin-bottom: 12px;
+}
+
+.input label {
+  color: var(--lighGrey);
+  font-size: 20px;
+  font-weight: 600;
+  margin: 8px 2px;
+}
+
+.input input {
+  width: 100%;
+  min-width: 300px;
+  font-size: 18px;
+  padding: 8px 8px;
+  outline: none;
+  border: var(--inputBorder);
+  border-radius: 4px;
+  color: var(--lighGrey);
+}
+
+.input input:hover {
+  box-shadow: rgba(39, 130, 184, 0.1) 0px 0px 16px;
+}
+.input input:visited {
+  box-shadow: rgba(21, 125, 185, 0.1) 0px 0px 16px;
+}
+.input input:active {
+  box-shadow: rgba(34, 136, 196, 0.1) 0px 0px 16px;
+}
+
+.input_errors {
+  color: var(--red);
+  font-size: 18px;
+  margin-top: 5px;
+}

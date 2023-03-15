@@ -1,0 +1,32 @@
+.asnTable .tss-1akey0g-MUIDataTableHeadCell-data {
+    font-size: 13px;
+    font-family:"Tahoma-Bold" ;
+    text-transform: capitalize;
+}
+
+.nupBtn{
+    position: absolute;
+    top: 20px ;
+    right: 35px;
+}
+
+.nupBtn button {
+    padding: 5px 9px;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-family: "Tahoma-Regular";
+}
+
+.nupBtn button:first-child{
+    background: #17a2b8;
+}
+
+.nupBtn button:last-child{
+   background-color: #e43023;
+}
+
+.asnTable  .MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular.tss-tlx3x1-MUIDataTableToolbar-root.css-1t29gy6-MuiToolbar-root {
+    height: 75px !important;
+}

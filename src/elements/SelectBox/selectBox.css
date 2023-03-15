@@ -1,0 +1,41 @@
+.selectBox {
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  margin-bottom: 12px;
+}
+
+.selectBox label {
+  color: var(--lighGrey);
+  font-size: 20px;
+  font-weight: 600;
+  margin: 8px 2px;
+}
+
+
+.selectBox .select {
+    width: 100%;
+    min-width: 300px;
+    font-size: 18px;
+  
+   outline: none;
+  
+   color: var(--lighGrey);
+   
+  }
+  
+  .selectBox .select:hover{
+      box-shadow: rgba(39, 130, 184, 0.1) 0px 0px 16px;
+  }
+   .selectBox .select:visited {
+      box-shadow: rgba(21, 125, 185, 0.1) 0px 0px 16px;
+  }
+  .selectBox .select:active{
+      box-shadow: rgba(34, 136, 196, 0.1) 0px 0px 16px;
+  }
+  
+  .select_errors{
+    color: var(--red);
+  font-size: 18px;
+  margin-top: 5px;
+  }

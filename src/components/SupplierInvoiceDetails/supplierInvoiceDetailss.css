@@ -1,0 +1,146 @@
+.spInvDtls{
+    width: 100%;
+    background: var(--background);
+    height: 83vh;
+}
+
+.spInDthead{
+    width: 100%;
+    background-color: white;
+    padding: 15px 15px;
+    margin-bottom: 4px;
+}
+
+.spInDthead h5{
+    font-family: "Tahoma-Bold";
+    color: var(--headingColor);
+    margin-left: 25px;
+}
+
+.stepPrBar {
+    background-color: white;
+    height: 80px !important;
+    border-bottom: 1.4px solid rgb(209, 209, 209);
+}
+.stepPrBar ._3uApM {
+    display: none !important;
+}
+
+.stepWrapper{
+   width: 84%;
+   margin: auto;
+   font-family: "Tohima-Regular";
+}
+
+.stepPrBar ._53Ji7, ._53Ji7  {
+    box-sizing: border-box;
+    padding: 4px !important;
+}
+._2Jtxm._35Ago ._2kL0S{
+    width: 33px !important;
+    height: 33px !important;
+    margin-top: 6px;
+    /* margin-bottom: 6px !important */
+}
+
+.spInvDtls ._2Jtxm ._1hzhf{
+    font-family: "Tahoma-Bold" !important;
+    font-size: 11px !important;
+    width: 170px !important;
+    color: var(--lighGrey);
+}
+
+.spInvDtls  ._2kL0S ._1hzhf{
+    color: black;
+}
+
+.sup2ndBox{
+    width: 100%;
+    background-color: white;
+    padding: 17px 15px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1.4px solid rgb(216, 216, 216);
+}
+.sup2ndrow{
+    width: 28%;
+}
+.sup2ndroww{
+    width: 35%;
+    
+}
+
+.sup2ndrow1{
+    display: flex;
+    align-items: center;
+    padding: 3px 0px;
+}
+
+.sup2ndrow1 h6{
+    width: 40%;
+    font-size: 12px;
+    color: black;
+    font-family: "Tahoma-Bold" !important;
+}
+.sup2ndrow1 span , .sup2ndrow1 input{
+    width: 55%;
+    font-size: 12.5px;
+    font-family: "Tahoma-Regular" !important;
+    margin-left: 9px;
+    color: black;
+}
+
+.sup2ndrow1 input  {
+    display: flex;
+    padding: 5px 7px;
+    outline: none;
+    border: 1.2px solid rgb(182, 185, 182)
+    ;
+    border-radius: 3px;
+}
+.sup2ndrow1 label , .sup2ndrow1 .filessss{
+    display: flex;
+    padding: 5px 7px;
+    outline: none;
+    border: 1.2px solid rgb(182, 185, 182)
+    ;
+    border-radius: 3px;
+    margin-left: 9px;
+    width: 235px;
+    align-items: center;
+}
+.sup2ndrow1 label h6{
+    border: 1px solid rgb(153, 153, 153);
+    padding: 4px 5px;
+    margin-bottom: 0px ;
+    font-weight: 400;
+    border-radius: 2px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(236, 236, 236);
+}
+
+.supDtaTabless{
+    width: 100%;
+    padding: 16px 0px;
+    background-color: white;
+}
+
+.sup2ndrow1 .filessss {
+    height: 27px;
+}
+
+.rejectBtn {
+    padding: 5px 25px;
+    background: red;
+    color: white;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    font-family: "CoHeadlineW23-ArabicRegularRegular";
+    border-radius: 4px;
+    transition: 0.2s;
+}
+
+.rejectBtn:hover{
+    opacity: 0.6;
+}

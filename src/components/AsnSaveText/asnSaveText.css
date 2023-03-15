@@ -1,0 +1,60 @@
+.asnTxtmdl {
+  width: 100%;
+  background-color: white;
+  border-radius: 4px;
+  padding: 12px 18px;
+  padding-top: 44px;
+  padding-bottom: 34px;
+  position: relative;
+}
+
+.asnTxtmdl h5 {
+  text-align: center;
+  align-self: center;
+  color: rgb(224, 11, 11);
+  font-size: 24px;
+  margin: auto;
+  font-family: "CoHeadlineW23-ArabicRegularBold";
+}
+
+.asnTxtBox {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.asnTxtBox textarea{
+    border: var(--border);
+    border-radius: 4px;
+    padding: 4px;
+    margin-left: 25px;
+    font-family: "CoHeadlineW23-ArabicRegularRegular";
+}
+
+.asnTxtBox h6{
+    color: var(--gray);
+    font-family: "CoHeadlineW23-ArabicRegularRegular";
+}
+
+.asnTxtmdl button {
+    border: none;
+    background:#03a9f4 ;
+    width: 100px;
+    font-family: "CoHeadlineW23-ArabicRegularRegular";
+    border-radius: 4px;
+    padding: 6px;
+    outline: none;
+    color: white;
+    margin-top: 25px;
+    align-self : center;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.cut_opt{
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    cursor: pointer;
+}

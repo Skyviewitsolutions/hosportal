@@ -1,0 +1,17 @@
+.searchCont{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1.2px solid rgb(236, 235, 235);
+    padding-bottom: 12px;
+}
+
+.searchCont div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,19 @@
+.footer{
+ position: fixed;
+bottom: 0px;
+right: 0px;
+width: 83%;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 8vh;
+border-top: 3px solid #e22d184d;
+    border-radius: 7px;
+    border-bottom: 3px solid #e22d184d;
+}
+
+.footer h5{
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--lighGrey);
+}

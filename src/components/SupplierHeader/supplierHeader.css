@@ -1,0 +1,71 @@
+.supheader{
+    width: 100%;
+    border-image-source: linear-gradient(90deg, #e3151c, #e06e0e);
+     background-color: #1c2346;
+     border-bottom: 4px solid;
+    border-image-slice: 1;
+    border-width: 4px;
+    font-family:  "CoHeadlineW23-ArabicRegularBold";
+}
+
+.supHeadCont{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   padding: 12px 12px 2px 12px;
+}
+
+.supHeadCont h6{
+    color: var(--lightWhite);
+    font-weight: 800;
+    font-size: 13px;
+    font-family:"CoHeadlineW23-ArabicRegularLight" ;
+}
+
+.supHeadCont div{
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+}
+
+.supHeadCont div img{
+    width: 20px;
+    margin: 0px 9px;
+    margin-top: -6px;
+}
+
+.supHeadCon2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 12px;
+}
+
+.supHeadCon2 div{
+    display: flex;
+    align-items: center;
+   width: 50%;
+   margin-left: 18px;
+}   
+
+.supHeadCon2 div:last-child{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.supHeadCon2 div h5 {
+    color: var(--lightWhite);
+    margin-bottom: 0px;
+    font-size: 15px;
+    margin-left: 6px;
+}
+.supHeadCon2 div h2 {
+    color: var(--lightWhite);
+    margin-bottom: -14px;
+    margin-left: 40px;
+    font-size: 21px;
+    
+}

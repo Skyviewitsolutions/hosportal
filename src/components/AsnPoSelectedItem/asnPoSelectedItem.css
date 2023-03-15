@@ -1,0 +1,58 @@
+.asnPoSld .sup2ndBox{
+    width: 100%;
+    background-color: #f8f9fe;
+    padding : 15px 23px;
+}   
+
+.asnPoSld h3{
+    font-family: "Tahoma-Bold";
+    font-size: 22px ;
+    color: var(--headingColor) ;
+    padding: 12px 26px;
+}
+
+.asnPoSld .sup2ndrow{
+    width: 47%;
+}
+.asnPoSld .sup2ndrow .sup2ndrow1{
+    margin: 8px 7px;
+}
+
+.asnPoSld .sup2ndrow .sup2ndrow1 h6{
+    width: 38% !important;
+}
+
+.asnPoSld .sup2ndrow .sup2ndrow1  span{
+    margin-left: 8% !important;
+}
+
+.asnPoSld .sup2ndrow .sup2ndrow1  input {
+    margin-left: 8% !important;
+}
+.asnPoSld .sup2ndrow .sup2ndrow1  select {
+    margin-left: 7.5% !important;
+    display: flex;
+    padding: 6px 7px;
+    outline: none;
+    border: 1.2px solid rgb(182, 185, 182);
+    border-radius: 3px;
+    font-size: 13px;
+    width: 54%;
+}
+
+.asnPoSelectedDtaTable{
+    width: 100%;
+}
+
+.asnPoSelectedDtaTable .supDtaTable .tss-1akey0g-MUIDataTableHeadCell-data {
+    padding: 1px 5px !important;
+    margin-bottom: 0px !important;
+    font-family: "Tahoma-Bold";
+    text-transform: capitalize;
+    background: #fcf0e6 !important;
+    font-size: 12px;
+}
+
+.supDtaTable .tss-1akey0g-MUIDataTableHeadCell-data {
+    font-size: 12px !important;
+}

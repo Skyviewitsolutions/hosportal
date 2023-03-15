@@ -1,0 +1,87 @@
+
+.modal-backdrop.show {
+    opacity: 0.3 !important;
+    border: none;
+}
+
+.wlcmModal{
+    width: 130%;
+    margin-left: -15%;
+    height: 100%;
+    background-color: white;
+    border-radius: 6px;
+    position: relative;
+    font-family: "CoHeadlineW23-ArabicRegularRegular";
+    
+}
+
+.modal-content{
+    border: none !important;
+}
+
+.wlcmHeading{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 18px;
+    border-bottom: 1px solid rgb(218, 216, 216);
+}
+
+.wlcmHeading h2{
+    font-family: "CoHeadlineW23-ArabicRegularRegular";
+    color: darkblue;
+    font-size: 40px;
+   
+    margin-bottom: 0px;
+}
+
+.wlcmimg{
+    width: 100%;
+    padding: 18px 14px;
+}
+
+.wlcmimg img {
+    width: 100%;
+}
+
+.wlcmModal h5{
+    padding-left: 10px;
+    margin-bottom: 0px;
+}
+
+.wlcmlink {
+    margin: 12px 10px;
+    margin-bottom: 40px;
+}
+
+.wlcmlink a{
+    color: var(--blue);
+    margin-left: 8px;
+    text-decoration: none;
+}
+
+.wlcmlink a:hover{
+    color: var(--indigo);
+    text-decoration: underline;
+}
+
+.cut_opt{
+    position: absolute;
+    top:3px;
+    right: 12px;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cut_opt h5{
+    font-weight: bold;
+    color: var(--gray);
+    padding-left: 0px;
+    font-size: 22px;
+    
+}
+
